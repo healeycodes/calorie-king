@@ -1,0 +1,32 @@
+{
+  "name": "calorie-king",
+  "version": "1.0.0",
+  "description": "Count your calories, like a king.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.3",
+    "sqlite3": "^4.0.8",
+    "friendly-words": "^1.1.6"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://twitter.com/healeycodes"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}

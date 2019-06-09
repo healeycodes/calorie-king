@@ -1,3 +1,9 @@
+# Calorie King specific
+front-end/build/
+front-end/node_modules/
+.data/sqlite.db
+.data/test.db
+
 # Logs
 logs
 *.log
