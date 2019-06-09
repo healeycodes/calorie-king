@@ -60,5 +60,6 @@ For the back-end, `Mocha w/ supertest` is used to mock routes as well as databas
 
 The front-end tests are a work-in-progress but `Jest` tests that the `React` app can be mounted succesfully.
 
+<br>
 
-
+MIT license (c) healeycodes
