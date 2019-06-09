@@ -1,6 +1,6 @@
-# 👑 Calorie King
+# 👑 Calorie King [![Build Status](https://travis-ci.org/healeycodes/calorie-king.svg?branch=master)](https://travis-ci.org/healeycodes/calorie-king)
 
-A gamified calorie counting app with a mobile-first design. **Deployed [live on Glitch!](https://calorie-king.glitch.me/)**
+A gamified calorie counting app with a mobile-first design. **Deployed [live on Glitch!](https://calorie-king.glitch.me/)** 
 
 Tech stack: `Node.js w/ Express`, `React w/ create-react-app`, `Mocha`, `SQLite`.
 
