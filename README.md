@@ -1,4 +1,4 @@
-# Calorie King
+# 👑 Calorie King
 
 A gamified calorie counting app with a mobile-first design. **Deployed [live on Glitch!](https://calorie-king.glitch.me/)**
 
