@@ -2,6 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+app.use(bodyParser.json({ type: 'application/json' }));
 const friendlyWords = require('friendly-words');
 
 // init sqlite db
@@ -248,9 +249,8 @@ app.post('/api/goal/edit/:user', function(request, response) {
   );
 });
 
-// set express up after routes so that we catch the root path `/`
+// set up static after routes so that we catch the root path `/`
 app.use(express.static('front-end/build'));
-app.use(bodyParser.json({ type: 'application/json' }));
 
 module.exports = {
   app: app,
