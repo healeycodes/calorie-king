@@ -14,7 +14,7 @@
     "friendly-words": "^1.1.6"
   },
   "engines": {
-    "node": "8.x"
+    "node": "10.x"
   },
   "repository": {
     "url": "https://twitter.com/healeycodes"
