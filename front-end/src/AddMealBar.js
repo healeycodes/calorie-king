@@ -1,5 +1,5 @@
 import React from 'react';
-import './AddMealBar.css';
+import './stylesheets/AddMealBar.css';
 
 class AddMealBar extends React.Component {
   constructor(props) {

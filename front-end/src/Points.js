@@ -1,5 +1,5 @@
 import React from 'react';
-import './Points.css';
+import './stylesheets/Points.css';
 
 class Points extends React.Component {
     constructor(props) {
