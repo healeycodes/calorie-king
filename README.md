@@ -16,6 +16,8 @@ Users arrive at the root path (`/`) and are forwarded to a personal dashboard at
 
 Their username is generated from random friendly words. E.g. `/dashboard/energetic-minibus-snickerdoodle`.
 
+All data is stored locally in an SQLite database in `./data/sqlite.db`.
+
 <br>
 
 ### Build
