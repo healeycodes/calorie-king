@@ -18,7 +18,7 @@ class GoalDisplay extends React.Component {
       <div className="card">
         <div className="card-body">
           <div>
-            <span className="h2">Goal: {goal}</span>
+            <span>Goal: {goal}</span>
             <span className="text-gray">
               <i
                 onClick={this.props.setGoal}
