@@ -165,11 +165,10 @@ class App extends React.Component {
   }
 
   moveDay(dir) {
-    const current = this.state.currentDay;
-    const next = new Date();
-    next.setDate(current.getDate() - dir);
+    // 24hrs, vulnerable to time-zone/drift issues
+    const period = (1000 * 60 * 60 * 24) * dir;
     this.setState({
-      currentDay: next
+      currentDay: new Date(+this.state.currentDay + period)
     });
   }
 
