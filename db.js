@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const setup = () => {
   const dbFile =
-    process.env.NODE_ENV === 'test' ? './data/test.db' : './.data/sqlite.db';
+    process.env.NODE_ENV === 'test' ? './data/test.db' : './data/sqlite.db';
   const exists = fs.existsSync(dbFile);
   const sqlite3 = require('sqlite3').verbose();
   const db = new sqlite3.Database(dbFile);
