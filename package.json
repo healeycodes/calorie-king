@@ -14,10 +14,10 @@
     "friendly-words": "^1.1.6"
   },
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "repository": {
-    "url": "https://twitter.com/healeycodes"
+    "url": "https://github.com/healeycodes/calorie-king"
   },
   "license": "MIT",
   "keywords": [

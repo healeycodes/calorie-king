@@ -1,5 +1,5 @@
 import React from 'react';
-import './stylesheets/GoalDisplay.css';
+import './GoalDisplay.css';
 
 class GoalDisplay extends React.Component {
   render() {

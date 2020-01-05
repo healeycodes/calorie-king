@@ -12,10 +12,10 @@ describe('app', () => {
         .then(res => res.header.location.split('/').pop());
 
       // Is the returned username present in our database?
-      db.all('SELECT user FROM Users WHERE user = (?)', [user], function(
+      db.all('SELECT user FROM Users WHERE user = (?)', [user], (
         err,
         rows
-      ) {
+      ) => {
         if (err) {
           throw err;
         } else {
@@ -65,7 +65,7 @@ describe('app', () => {
       await db.all(
         'SELECT id FROM Meals WHERE user = (?) AND name = (?)',
         [user, newMealName],
-        function(err, rows) {
+        (err, rows) => {
           if (err) {
             throw err;
           } else {
@@ -81,10 +81,10 @@ describe('app', () => {
         .expect(200);
 
       // Was it actually deleted from the db?
-      await db.all('SELECT id FROM Meals WHERE id = (?)', [mealId], function(
+      await db.all('SELECT id FROM Meals WHERE id = (?)', [mealId], (
         err,
         rows
-      ) {
+      ) => {
         if (err) {
           throw err;
         } else {

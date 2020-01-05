@@ -1,5 +1,5 @@
 import React from 'react';
-import './stylesheets/UserBar.css';
+import './UserBar.css';
 
 class UserBar extends React.Component {
     constructor(props) {
