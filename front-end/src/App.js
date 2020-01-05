@@ -5,9 +5,9 @@ import Navigate from './Navigate';
 import MealTable from './MealTable';
 import UserBar from './UserBar';
 import Points from './Points';
-import './stylesheets/Spectre.css';
-import './stylesheets/Background.css';
-import './stylesheets/App.css';
+import './Spectre.css';
+import './Background.css';
+import './App.css';
 import header from './header.png';
 
 class App extends React.Component {
